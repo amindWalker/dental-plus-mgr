@@ -1,3 +1,34 @@
+
+
+<h3 align="center">Dental+</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
+
+<p align="center"> Dental+ é um software para escritórios e laboratórios odontológicos que visa acelerar a comunicação, agendamentos, pagamentos e atendimentos dos clientes. Facilitando a vida dos profissionais da odontologia. Uma parceria com IESO Odontologia.
+    <br> 
+</p>
+
+
+## ⛏️ Construído com Node.JS, React.JS e Typescript <a name = "built_using"></a>
+
+- [Node.js](https://nodejs.org/) - Server Environment
+- [React.js](https://reactjs.org/) - Web Framework
+- [Typescript](https://www.typescriptlang.org/) - Typed JavaScript Language
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@git-BR](https://github.com/git-BR) - full-stack development
+
+
+
+----------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
