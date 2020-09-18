@@ -94,7 +94,7 @@ const SignIn: React.FC = () => {
 
           <Link to="/signup">
             <FiLogIn />
-            Criar Contra
+            Criar Conta
           </Link>
         </AnimationContainer>
       </Content>
