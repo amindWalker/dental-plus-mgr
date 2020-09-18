@@ -11,7 +11,7 @@
 
 ---
 
-<p align="center"> Dental+ é um software para escritórios e laboratórios odontológicos que visa acelerar a comunicação, agendamentos, pagamentos e atendimentos dos clientes. Facilitando a vida dos profissionais da odontologia. Uma parceria com IESO Odontologia.
+<p align="center"> Dental+ é um software para escritórios e laboratórios odontológicos que visa acelerar a comunicação, agendamentos, pagamentos e atendimentos dos clientes. Facilitando a vida dos profissionais da odontologia.
     <br> 
 </p>
 
