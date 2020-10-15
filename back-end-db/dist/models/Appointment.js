@@ -12,39 +12,36 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var typeorm_1 = require("typeorm");
-var User_1 = __importDefault(require("./User"));
-var Appointment = /** @class */ (function () {
-    function Appointment() {
-    }
-    __decorate([
-        typeorm_1.PrimaryGeneratedColumn('uuid'),
-        __metadata("design:type", String)
-    ], Appointment.prototype, "id", void 0);
-    __decorate([
-        typeorm_1.Column(),
-        __metadata("design:type", String)
-    ], Appointment.prototype, "provider_id", void 0);
-    __decorate([
-        typeorm_1.ManyToOne(function () { return User_1.default; }),
-        typeorm_1.JoinColumn({ name: 'provider_id' }),
-        __metadata("design:type", User_1.default)
-    ], Appointment.prototype, "provider", void 0);
-    __decorate([
-        typeorm_1.Column('timestamp with time zone'),
-        __metadata("design:type", Date)
-    ], Appointment.prototype, "date", void 0);
-    __decorate([
-        typeorm_1.CreateDateColumn(),
-        __metadata("design:type", Date)
-    ], Appointment.prototype, "created_at", void 0);
-    __decorate([
-        typeorm_1.UpdateDateColumn(),
-        __metadata("design:type", Date)
-    ], Appointment.prototype, "updated_at", void 0);
-    Appointment = __decorate([
-        typeorm_1.Entity('appointments')
-    ], Appointment);
-    return Appointment;
-}());
+const typeorm_1 = require("typeorm");
+const User_1 = __importDefault(require("./User"));
+let Appointment = class Appointment {
+};
+__decorate([
+    typeorm_1.PrimaryGeneratedColumn('uuid'),
+    __metadata("design:type", String)
+], Appointment.prototype, "id", void 0);
+__decorate([
+    typeorm_1.Column(),
+    __metadata("design:type", String)
+], Appointment.prototype, "provider_id", void 0);
+__decorate([
+    typeorm_1.ManyToOne(() => User_1.default),
+    typeorm_1.JoinColumn({ name: 'provider_id' }),
+    __metadata("design:type", User_1.default)
+], Appointment.prototype, "provider", void 0);
+__decorate([
+    typeorm_1.Column('timestamp with time zone'),
+    __metadata("design:type", Date)
+], Appointment.prototype, "date", void 0);
+__decorate([
+    typeorm_1.CreateDateColumn(),
+    __metadata("design:type", Date)
+], Appointment.prototype, "created_at", void 0);
+__decorate([
+    typeorm_1.UpdateDateColumn(),
+    __metadata("design:type", Date)
+], Appointment.prototype, "updated_at", void 0);
+Appointment = __decorate([
+    typeorm_1.Entity('appointments')
+], Appointment);
 exports.default = Appointment;
