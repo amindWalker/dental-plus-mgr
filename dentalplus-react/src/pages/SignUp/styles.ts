@@ -46,14 +46,14 @@ export const AnimationContainer = styled.div`
 
   strong {
     font-family: 'Medula One', sans-serif;
-    font-size: 6em;
+    font-size: 5em;
     opacity: 0.9;
     color: whitesmoke;
   }
 
   sub {
     font-family: 'Medula One', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     letter-spacing: 0.1em;
     opacity: 0.7;
     color: whitesmoke;

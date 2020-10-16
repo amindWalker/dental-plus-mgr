@@ -52,7 +52,7 @@ const SignUp: React.FC = () => {
         addToast({
           type: 'success',
           title: 'Cadastro enviado!',
-          description: 'Agora você tem acesso ao Dental+',
+          description: 'Agora você tem acesso ao Dental+ Manager',
         });
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
@@ -78,9 +78,9 @@ const SignUp: React.FC = () => {
 
       <Content>
         <AnimationContainer>
-          <img src={MainLogo} alt="Dental+" />
-          <strong>Dental+</strong>
-          <sub>ortodontia especializada</sub>
+          <img src={MainLogo} alt="Dental+ Manager" />
+          <strong>Dental+ Manager</strong>
+          <sub>saúde dental acessível e automatizada</sub>
 
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Cadastro</h1>
@@ -101,7 +101,7 @@ const SignUp: React.FC = () => {
 
           <Link to="/">
             <FiArrowLeft />
-            Voltar para Login
+            Voltar para a tela de Login
           </Link>
         </AnimationContainer>
       </Content>

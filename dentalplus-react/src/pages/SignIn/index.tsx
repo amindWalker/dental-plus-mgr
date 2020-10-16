@@ -72,9 +72,9 @@ const SignIn: React.FC = () => {
     <Container>
       <Content>
         <AnimationContainer>
-          <img src={MainLogo} alt="Dental+" />
-          <strong>Dental+</strong>
-          <sub>ortodontia especializada</sub>
+          <img src={MainLogo} alt="Dental+ Manager" />
+          <strong>Dental+ Manager</strong>
+          <sub>saúde dental acessível e automatizada</sub>
 
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Login</h1>
