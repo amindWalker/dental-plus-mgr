@@ -9,25 +9,23 @@
 
 </div>
 
----
-
 <p align="center"> Dental+ é um software para escritórios e laboratórios odontológicos que visa acelerar a comunicação, agendamentos, pagamentos e atendimentos dos clientes. Facilitando a vida dos profissionais da odontologia.
     <br> 
 </p>
 
 
-## ⛏️ Construído com Node.JS, React.JS e Typescript <a name = "built_using"></a>
+## Construído com Node.JS, React.JS e Typescript <a name = "built_using"></a>
 
-- [Node.js](https://nodejs.org/) - Server Environment
-- [React.js](https://reactjs.org/) - Web Framework
-- [Typescript](https://www.typescriptlang.org/) - Typed JavaScript Language
+- [Node.js](https://nodejs.org/)
+- [React.js](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Author <a name = "authors"></a>
 
-- [@git-BR](https://github.com/git-BR) - full-stack development
+- [@git-BR](https://github.com/git-BR)
 
 ## Demo
-----------
+
 <h3 align="center">SignIn Page</h3>
 
 ![Dental+ SignIn](https://raw.githubusercontent.com/git-BR/dental-plus-react-nodejs/master/demo/SignIn-demo.png)
@@ -41,7 +39,7 @@
 ![Dental+ Dashboard](https://raw.githubusercontent.com/git-BR/dental-plus-react-nodejs/master/demo/Dashboard-demo.png)
 
 
-----------
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
